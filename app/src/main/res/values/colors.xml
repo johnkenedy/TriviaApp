@@ -19,7 +19,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#7e53c5</color>
-    <color name="youWinDark">#35A571</color>
-    <color name="youWinBackground">#B7F8C9</color>
-    <color name="gameOverBackground">#f8bbd0</color>
+    <color name="youWinDark">#00F644</color>
+    <color name="youWinBackground">#00F644</color>
+    <color name="gameOverBackground">#ED0000</color>
+    <color name="white">#FFFFFF</color>
 </resources>

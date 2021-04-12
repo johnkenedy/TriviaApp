@@ -17,7 +17,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.android.navigation.GameOverFragment">
+    tools:context="com.example.android.navigation.view.fragments.GameOverFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/gameOverConstraintLayout"
@@ -45,13 +45,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/vertical_margin"
+            android:background="@drawable/background_btn"
             android:layout_marginTop="@dimen/vertical_margin"
             android:layout_marginEnd="@dimen/vertical_margin"
             android:layout_marginBottom="8dp"
             android:paddingStart="@dimen/button_padding"
             android:paddingEnd="@dimen/button_padding"
             android:text="@string/try_again"
-            android:textColor="?colorAccent"
+            android:textColor="@color/gameOverBackground"
             android:textSize="@dimen/button_text_size"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
